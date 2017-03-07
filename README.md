@@ -4,6 +4,7 @@
 
 * [vim: Linting a JavaScript project with flow + eslint](https://github.com/timoxley/til/blob/master/vim/eslint-flow-linting.md)
 * [javascript: yarn Inexplicable ENOENT error](https://github.com/timoxley/til/blob/master/javascript/yarn-enoent.md)
+* [shell: zsh – report execution statistics after command completed](https://github.com/timoxley/til/blob/master/shell/zsh-reporttime.md)
 
 ##  2017/3/6
 

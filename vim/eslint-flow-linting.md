@@ -4,7 +4,7 @@ This is way harder than it should be.
 
 #### tl;dr
 
-Just use [w0rp/ale](https://github.com/w0rp/ale). It's simple, async, fast, and most importantly: **`ale` runs the local version of the linting package by default**. 
+Just use [w0rp/ale](https://github.com/w0rp/ale). It's simple, async, fast, and most importantly: **`ale` runs the local version of the linting package by default**.
 
 Setting up `ale` was as simple as adding this to my vim config:
 
@@ -20,7 +20,7 @@ let g:ale_linters = {
 
 ## Why not `x` ?
 
-I had the most difficulty getting these other solutions to use the locally installed `eslint`/`flow` executable rather than a globally installed one. **Linters should never rely on globally installed executables or config files**, they should only ever use the current package's dependencies and configuration. Global packages cannot be version managed by the project's `package.json`, so two developers could be using totally different versions of `eslint`/`flow`. Additionally, using global eslint means all the project's eslint plugins need to be installed globally, but is a massive hassle if you need to use different versions of any of these tools simultaneously on different projects.
+I had the most difficulty getting these other solutions to use the locally installed `eslint`/`flow` executable rather than a globally installed one. **Linters should never rely on globally installed executables or config files**, they should only ever use the current package's dependencies and configuration. Global packages cannot be version managed by the project's `package.json`, so two developers could be using totally different versions of `eslint`/`flow`. Additionally, using global eslint means all the project's eslint plugins need to be installed globally, but is a massive hassle if you need to use different versions of any of these tools simultaneously on different projects. Hats off to `ale` for getting this right from the start.
 
 FYI: if you need to run locally installed excutables from the commandline you can use [timoxley/npm-run](https://github.com/timoxley/npm-run).
 

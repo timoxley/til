@@ -1,4 +1,4 @@
-# Linting a JavaScript project with `flow` + `eslint`
+# Linting a JavaScript project with `flow` + `eslint` in vim
 
 This is way harder than it should be. 
 

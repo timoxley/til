@@ -1,4 +1,4 @@
-# Yarn repair global installation
+# Yarn repair global packages
 
 ### tl;dr
 

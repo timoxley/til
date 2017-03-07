@@ -8,7 +8,7 @@ Just use [w0rp/ale](https://github.com/w0rp/ale). It's simple, async, fast, and 
 
 Setting up `ale` was as simple as adding this to my vim config:
 
-```js
+```vim
 Plugin 'w0rp/ale' # if using Vundle
 
 let g:ale_linters = {

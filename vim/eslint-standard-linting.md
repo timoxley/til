@@ -13,8 +13,10 @@ autocmd FileType javascript let g:ale_linters = {
 
 Remove 'flow' option if you don't need it.
 
-[`ale#path#Upwards`](https://github.com/w0rp/ale/blob/a366d325a7c69fa20a3ab69ff8359bcd37d1487a/autoload/ale/path.vim#L155-L177) 
-+ vim's `globpath` is a neat way to "glob up" in vimscript. 
+----
+
+Vim's `globpath` combined with [`ale#path#Upwards`](https://github.com/w0rp/ale/blob/a366d325a7c69fa20a3ab69ff8359bcd37d1487a/autoload/ale/path.vim#L155-L177) is a neat way to "glob up" in vimscript. 
+
 Also note there's many other neat path utilities in [`ale/autoload/ale/path.vim`](https://github.com/w0rp/ale/blob/a366d325a7c69fa20a3ab69ff8359bcd37d1487a/autoload/ale/path.vim). 
 Wouldn't take much to extract these to be standalone vimscript if you needed them outside the context of ALE.
 
